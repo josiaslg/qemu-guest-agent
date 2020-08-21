@@ -1,0 +1,5 @@
+CLANG_VERSION(DEFAULT): https://oncloud.com.br/downloads/qemu-guest-agent-4.1.1.txz
+GCC_VERSION:            https://oncloud.com.br/downloads/gpl3_qemu-guest-agent-4.1.1.txz
+
+NOTES:
+mtune set to ivybridge. 
