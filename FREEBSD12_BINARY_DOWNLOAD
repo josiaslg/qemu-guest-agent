@@ -3,3 +3,11 @@ GCC_VERSION:            https://oncloud.com.br/downloads/gpl3_qemu-guest-agent-4
 
 NOTES:
 mtune set to ivybridge. 
+
+Erros:
+If you got some dependency error, install glib:
+pkg install glib
+
+If you can't add package because ssl cert, do:
+fetch  --no-verify-peer https://oncloud.com.br/downloads/qemu-guest-agent-4.1.1.txz
+
