@@ -1,4 +1,3 @@
-
 PORTNAME=       qemu
 PORTVERSION=    4.1.1
 PKGNAMESUFFIX=  -guest-agent
